@@ -57,23 +57,23 @@ Un día de clase en Adalab consta de tres partes:
 
 Durante el pair programming usamos 3 salas de Zoom:
 
-- Sala con las 40 alumnas y las dos profesoras: **Promo J: todas las alumnas**.
-- Sala con 20 alumnas y una profesora: **Promo J: parejas de la 1 a la 10**.
-- Sala con las otras 20 alumnas y la otra profesora: **Promo J: parejas de la 11 a la 20**.
+- Sala con las 40 alumnas y las dos profesoras: **Promo K: todas las alumnas**.
+- Sala con 20 alumnas y una profesora: **Promo K: parejas de la 1 a la 10**.
+- Sala con las otras 20 alumnas y la otra profesora: **Promo K: parejas de la 11 a la 20**.
 
 Cada día seguimos los siguientes pasos:
 
-1. Al empezar el día las 40 alumnas y las profesoras nos conectamos por Zoom a la sala **Promo J: todas las alumnas**.
+1. Al empezar el día las 40 alumnas y las profesoras nos conectamos por Zoom a la sala **Promo K: todas las alumnas**.
 1. Hacemos el Kahoot.
 1. Las profesoras hacemos una explicación sobre la lección del día.
-1. Todas las alumnas y profesoras se **desconectan** de la sala **Promo J: todas las alumnas**.
-1. Cada alumna se conecta a la sala de Zoom **Promo J: parejas de la 1 a la 10** o **Promo J: parejas de la 11 a la 20**, según su número de pareja.
-1. Una profesora se conecta a la sala de Zoom **Promo J: parejas de la 1 a la 10** y la otra a **Promo J: parejas de la 11 a la 20**.
+1. Todas las alumnas y profesoras se **desconectan** de la sala **Promo K: todas las alumnas**.
+1. Cada alumna se conecta a la sala de Zoom **Promo K: parejas de la 1 a la 10** o **Promo K: parejas de la 11 a la 20**, según su número de pareja.
+1. Una profesora se conecta a la sala de Zoom **Promo K: parejas de la 1 a la 10** y la otra a **Promo K: parejas de la 11 a la 20**.
 1. Las profesoras os juntamos por pajeras en **mini salas** de Zoom para que trabajéis en pair programming.
 1. Las profesoras creamos un hilo en el canal de slack **#promo-j-programación** para dar soporte a la pareja que lo necesite.
 1. La pareja que necesite soporte pide la vez por dicho hilo de Slack indicando el ejercicio sobre el que quiere recibir soporte.
 1. Las profesoras **os movemos de vuestra mini sala de Zoom a la sala común** para daros soporte.
-1. 15 minutos antes de acabar la clase nos juntamos todas en la sala de Zoom **Promo J: todas las alumnas**.
+1. 15 minutos antes de acabar la clase nos juntamos todas en la sala de Zoom **Promo K: todas las alumnas**.
 1. Las profesoras explicamos las dudas principales y hacemos  una introducción a la clase del día siguiente si fuera necesario.
 
 ### Proyecto: qué es
@@ -87,32 +87,32 @@ Cada día seguimos los siguientes pasos:
 
 Durante el proyecto usamos 3 salas de Zoom:
 
-- Sala con las 40 alumnas y las dos profesoras: **Promo J: todas las alumnas**.
-- Sala con 20 alumnas y una profesora: **Promo J: equipos del 1 al 4**.
-- Sala con las otras 20 alumnas y la otra profesora: **Promo J: equipos del 5 al 8**.
+- Sala con las 40 alumnas y las dos profesoras: **Promo K: todas las alumnas**.
+- Sala con 20 alumnas y una profesora: **Promo K: equipos del 1 al 4**.
+- Sala con las otras 20 alumnas y la otra profesora: **Promo K: equipos del 5 al 8**.
 
 Cada día seguimos los siguientes pasos:
 
-1. Al empezar el proyecto las 40 alumnas y las profesoras nos conectamos por Zoom a la sala **Promo J: todas las alumnas**.
+1. Al empezar el proyecto las 40 alumnas y las profesoras nos conectamos por Zoom a la sala **Promo K: todas las alumnas**.
 1. Hacemos punto de control sobre cómo van los proyectos.
-1. Todas las alumnas y profesoras se **desconectan** de la sala **Promo J: todas las alumnas**.
-1. Cada alumna se conecta a la sala de Zoom **Promo J: equipos del 1 al 4** o **Promo J: equipos del 5 al 8**, según su número de equipo.
-1. Una profesora se conecta a la sala de Zoom **Promo J: equipos del 1 al 4** y la otra a **Promo J: equipos del 5 al 8**.
+1. Todas las alumnas y profesoras se **desconectan** de la sala **Promo K: todas las alumnas**.
+1. Cada alumna se conecta a la sala de Zoom **Promo K: equipos del 1 al 4** o **Promo K: equipos del 5 al 8**, según su número de equipo.
+1. Una profesora se conecta a la sala de Zoom **Promo K: equipos del 1 al 4** y la otra a **Promo K: equipos del 5 al 8**.
 1. Las profesoras os juntamos por equipos en mini salas de Zoom para que trabajéis en equipo.
 1. Las profesoras creamos un hilo en el canal de slack **#promo-j-programación** para dar soporte al equipo que lo necesite.
 1. El equipo que necesite soporte pide la vez por dicho hilo de Slack.
 1. Las profesoras **os movemos de vuestra mini sala de Zoom a la sala común** para daros soporte.
-1. 15 minutos antes de acabar la clase nos juntamos todas en la sala de Zoom **Promo J: todas las alumnas**.
+1. 15 minutos antes de acabar la clase nos juntamos todas en la sala de Zoom **Promo K: todas las alumnas**.
 
 ### Desarrollo profesional
 
 En las clases de desarrollo profesional practicaremos diferentes soft skills que te vienen muy bien para que te conviertas en una gran programadora.
 
-Siempre usaremos la sala de Zoom **Promo J: todas las alumnas** para realizar estas clases.
+Siempre usaremos la sala de Zoom **Promo K: todas las alumnas** para realizar estas clases.
 
 ### A tener en cuenta
 
-- Una cosa importante que debemos hacer siempre es que al empezar el día y después de cada descanso todas las alumnas y profesores nos juntamos en la sala **Promo J: todas las alumnas** y desde esta sala explicaremos a qué sala nos movemos.
+- Una cosa importante que debemos hacer siempre es que al empezar el día y después de cada descanso todas las alumnas y profesores nos juntamos en la sala **Promo K: todas las alumnas** y desde esta sala explicaremos a qué sala nos movemos.
 - Para que te podamos enviar a las mini salas es importante que **el email con el que te has registrado en Zoom sea el mismo que nos has facilitado a Adalab**.
 - Si por lo que sea te sales de una mini sala y no puedes volver a entrar, lo que debes hacer es salir cerrar la reunión de Zoom y volver a entrar. Aparecerás en la sala principal y el profesor te meterá en la mini sala que te corresponda.
 - Este no es el procedimiento más cómodo del mundo, pero sí nos permite **dar soporte a las dos profesoras a la vez y grabar todo** el soporte por Zoom. Posteriormente el resto de alumnas podéis ver las grabaciones, repasar y resolver dudas fácilmente. Si se te ocurre una forma más óptima de trabajar, dínoslo.
@@ -128,7 +128,7 @@ Para trabajar en remoto fuera del horario de clase os recomendamos:
 - Para comunicarte por chat usa Slack.
 - Para comunicarte por vídeo usa:
    - **Slack para grupos pequeños**, por ejemplo con tu pareja o equipo.
-   - La sala de Zoom **Promo J: todas las alumnas** para grupos grandes. Las alumnas solo debéis usar esta sala cuando no se esté usando para dar clase. Es decir a partir de las 14:00 horas y los fines de semana.
+   - La sala de Zoom **Promo K: todas las alumnas** para grupos grandes. Las alumnas solo debéis usar esta sala cuando no se esté usando para dar clase. Es decir a partir de las 14:00 horas y los fines de semana.
 
 ## Herramientas
 
