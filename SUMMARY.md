@@ -24,25 +24,23 @@
   - [Preguntas de entrevista](guias/preguntas_de_entrevista.md)
 - [Información de interés](guias/informacion_de_interes.md)
 
-## Módulo 1
-
-- HTML y CSS
-  - [1.1. Intro a la web](modulo_1/1_1_intro_a_la_web.md)
-  - [1.2. Mi primera página web](modulo_1/1_2_mi_primera_web.md)
-  - [1.3. Modelo de caja y herramientas](modulo_1/1_3_modelo_de_caja_y_herramientas.md)
-  - [1.4 Flexbox](modulo_1/1_4_posicionamiento_con_flexbox.md)
-  - [1.5 Posicionamiento](modulo_1/1_5_posicionamiento.md)
-  - [1.6 Diseño responsive](modulo_1/1_6_responsive_design.md)
-  - [1.7 Publicando nuestra web](modulo_1/1_7_publicando_nuestra_web.md)
-  - [Repaso intermedio](modulo_1/1_repaso_intermedio.md)
-  - [1.8 Control de versiones](modulo_1/1_8_control_de_versiones.md)
-  - [1.9 Automatización de tareas](modulo_1/1_9_automatizacion_de_tareas.md)
-  - [1.10 SASS](modulo_1/1_10_sass.md)
-  - [1.11 Formularios](modulo_1/1_11_formularios.md)
-  - [1.12 Sistema de Grid](modulo_1/1_12_sistema_de_grid.md)
-  - [1.13 Animaciones CSS](modulo_1/1_13_animaciones_CSS.md)
-  - [1.14 Accesibilidad y Sistemas de diseño](modulo_1/1_14_accesibilidad_sistemas_de_diseno.md)
-  - [Repaso final](modulo_1/1_repaso.md)
+## Módulo 1: HTML y CSS
+- [1.1. Intro a la web](modulo_1/1_1_intro_a_la_web.md)
+- [1.2. Mi primera página web](modulo_1/1_2_mi_primera_web.md)
+- [1.3. Modelo de caja y herramientas](modulo_1/1_3_modelo_de_caja_y_herramientas.md)
+- [1.4 Flexbox](modulo_1/1_4_posicionamiento_con_flexbox.md)
+- [1.5 Posicionamiento](modulo_1/1_5_posicionamiento.md)
+- [1.6 Diseño responsive](modulo_1/1_6_responsive_design.md)
+- [1.7 Publicando nuestra web](modulo_1/1_7_publicando_nuestra_web.md)
+- [Repaso intermedio](modulo_1/1_repaso_intermedio.md)
+- [1.8 Control de versiones](modulo_1/1_8_control_de_versiones.md)
+- [1.9 Automatización de tareas](modulo_1/1_9_automatizacion_de_tareas.md)
+- [1.10 SASS](modulo_1/1_10_sass.md)
+- [1.11 Formularios](modulo_1/1_11_formularios.md)
+- [1.12 Sistema de Grid](modulo_1/1_12_sistema_de_grid.md)
+- [1.13 Animaciones CSS](modulo_1/1_13_animaciones_CSS.md)
+- [1.14 Accesibilidad y Sistemas de diseño](modulo_1/1_14_accesibilidad_sistemas_de_diseno.md)
+- [Repaso final](modulo_1/1_repaso.md)
 
 ## Módulo 2: Programando la web
 
@@ -69,23 +67,23 @@
 ## Módulo 3
 
 - React
-- [3.1 Clases de ES6](modulo_3/3_1_clases_es6.md)
-- [3.2 Intro a React](modulo_3/3_2_intro_react.md)
-- [3.3 Intro a React II](modulo_3/3_3_intro_react_2.md)
-- [3.4 Componentes en React](modulo_3/3_4_componentes_react.md)
-- [3.5 Eventos en React](modulo_3/3_5_eventos_react.md)
-- [3.6 Estado en React](modulo_3/3_6_estado_react.md)
-- [3.7 React Hooks](modulo_3/3_7_react_hooks.md)
-- [Repaso intermedio](modulo_3/3_repaso_intermedio.md)
-- [3.8 Formularios en React](modulo_3/3_8_formularios_en_react.md)
-- [3.9 Buenas prácticas](modulo_3/3_9_buenas_practicas.md)
-- [3.10 Arquitectura de aplicaciones React](modulo_3/3_10_arquitectura_estado.md)
-- [3.11 React router](modulo_3/3_11_react_router.md)
-- [3.12 Ciclo de vida de componentes](modulo_3/3_12_ciclo_vida_componentes_react.md)
-- [3.13 Testing con JavaScript](modulo_3/3_13_testing_js.md)
-- [3.14 Refactoring](modulo_3/3_14_refactoring.md)
-- [Repaso final](modulo_3/3_repaso.md)
-- [Ejercicio: GMail](modulo_3/3_ejercicio_global_gmail.md)
+  - [3.1 Clases de ES6](modulo_3/3_1_clases_es6.md)
+  - [3.2 Intro a React](modulo_3/3_2_intro_react.md)
+  - [3.3 Intro a React II](modulo_3/3_3_intro_react_2.md)
+  - [3.4 Componentes en React](modulo_3/3_4_componentes_react.md)
+  - [3.5 Eventos en React](modulo_3/3_5_eventos_react.md)
+  - [3.6 Estado en React](modulo_3/3_6_estado_react.md)
+  - [3.7 React Hooks](modulo_3/3_7_react_hooks.md)
+  - [Repaso intermedio](modulo_3/3_repaso_intermedio.md)
+  - [3.8 Formularios en React](modulo_3/3_8_formularios_en_react.md)
+  - [3.9 Buenas prácticas](modulo_3/3_9_buenas_practicas.md)
+  - [3.10 Arquitectura de aplicaciones React](modulo_3/3_10_arquitectura_estado.md)
+  - [3.11 React router](modulo_3/3_11_react_router.md)
+  - [3.12 Ciclo de vida de componentes](modulo_3/3_12_ciclo_vida_componentes_react.md)
+  - [3.13 Testing con JavaScript](modulo_3/3_13_testing_js.md)
+  - [3.14 Refactoring](modulo_3/3_14_refactoring.md)
+  - [Repaso final](modulo_3/3_repaso.md)
+  - [Ejercicio: GMail](modulo_3/3_ejercicio_global_gmail.md)
 
 ## Proyectos
 
