@@ -13,6 +13,7 @@
 - [EJERCICIO 7](#ejercicio-7)
 - [EJERCICIO 8](#ejercicio-8)
 - [EJERCICIO 9](#ejercicio-9)
+- [EJERCICIO 10](#ejercicio-10)
 
 <!-- /TOC -->
 
@@ -298,7 +299,7 @@ header {
 
 De esta manera cuando el diseñador decida que neustro color base pasará de azul a naranja, solamente tendríamos que cambiar la propiedad brand-color dentro de :root.
 
-#### EJERCICIO 7
+#### EJERCICIO 8
 
 Partimos de una web con un montón de propiedades CSS repetidas por nuestra hoja de estilos, saca todas las que puedas a variables CSS y aplícalas en aquellos lugares donde ahora aparece la propiedad escrita directamente.
 El diseñador nos ha pasado el proyecto en este codepen: https://codepen.io/pixelmary/pen/KKdxdre
@@ -344,7 +345,7 @@ Por otro lado nos permite investigar qué cambios queremos hacer de forma más r
 Por ejemplo, podemos ver información del modelo de caja:
 ![HTML y Modelo de caja en las DevTools](assets/images/1-3/html-inspector-modelo-de-caja.png)
 
-#### EJERCICIO 8
+#### EJERCICIO 9
 
 Abre cualquier web que te apetezca e investiga su estructura con el inspector.
 
@@ -360,7 +361,7 @@ Podemos seleccionar qué tipo de archivos queremos que se muestren y ver la dire
 
 Otro recurso muy interesante que nos ofrece Network es que nos permite ver cuántos segundos tarda en cargarse nuestra página y tomar capturas de pantalla de cada momento para simular qué será lo que verá un usuario durante el momento de la carga.
 
-#### EJERCICIO 9
+#### EJERCICIO 10
 
 Entrar en [Wikipedia.org](http://wikipedia.org) y
 
