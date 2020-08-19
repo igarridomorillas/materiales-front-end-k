@@ -62,6 +62,7 @@ Antes de entrar en profundidad con los modelos de caja tenemos que ver conceptos
 ### Height, width, border, padding y margin
 
 Todos los elementos HTML tienen una **altura** (height) y **anchura** (width). Además, puede tener otros atributos relacionados que influyen en su tamaño y su posición, que son el padding, los márgenes y los bordes:
+
 - el **borde** de un elemento es una línea que puede tener distinto grosor y que encuadra el contenido del elemento.
 - el **padding** es la distancia desde el contenido del elemento hasta el borde (podría pensarse como un margen interior).
 - el **margen** es la distancia desde borde del elemento hasta los elementos que están a su alrededor (el margen exterior).
@@ -222,6 +223,7 @@ Si quisiéramos cambiar el modelo de caja para todos los elementos podemos usar 
 **Ajustando imágenes**
 
 Hacer un `div` de 100x100px usando las propiedades `width` y `height`, incluir dentro una imagen de 100x100px y probar:
+
 - Añadir un padding de 10px
 - Añadir un borde de 5px
 - Cambiar el modelo de caja a `border-box` y explica qué ha pasado
@@ -302,12 +304,12 @@ De esta manera cuando el diseñador decida que neustro color base pasará de azu
 #### EJERCICIO 8
 
 Partimos de una web con un montón de propiedades CSS repetidas por nuestra hoja de estilos, saca todas las que puedas a variables CSS y aplícalas en aquellos lugares donde ahora aparece la propiedad escrita directamente.
-El diseñador nos ha pasado el proyecto en este codepen: https://codepen.io/pixelmary/pen/KKdxdre
+El diseñador nos ha pasado el proyecto en este codepen: <https://codepen.io/pixelmary/pen/KKdxdre>
 
 \_\_\_\_\_\_\_\_\_\_
 
 Más información sobre las variables CSS:
-https://blog.nearsoftjobs.com/variables-en-css-9701ed9bd92d
+<https://blog.nearsoftjobs.com/variables-en-css-9701ed9bd92d>
 
 ## DevTools
 
@@ -381,19 +383,19 @@ De momento veremos hasta ahí. Las herramientas para desarrolladores de Google C
 
 Para utilizar fuentes tipográficas de un sitio externo como Google Fonts, tenemos que seguir 2 sencillos pasos:
 
-1) Añadir una etiqueta link a nuestro head con un enlace que cargue la fuente:
+1. Añadir una etiqueta link a nuestro head con un enlace que cargue la fuente:
 
-```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
-```
+    ```html
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+    ```
 
-2) Usar esta fuente desde nuestro CSS:
+1. Usar esta fuente desde nuestro CSS:
 
-```css
-p {
-  font-family: 'Font Name', serif;
-}
-```
+    ```css
+    p {
+      font-family: 'Font Name', serif;
+    }
+    ```
 
 ### Enlazando la fuente
 
@@ -405,7 +407,7 @@ En la propia URL añadimos `family=` y escribimos el nombre de la tipografía a 
 
 Para cada tipo de fuente se importa por defecto la fuente normal, pero puede que queramos usar la fuente con otro peso (como negrita) o estilo (como cursiva). Para esto, añadimos al final del nombre de la fuente `:` y separados por `,` los estilos o pesos extra que necesitemos. El peso puede expresarse también como valor numérico que indica el grosor (400 es normal, 700 es negrita).
 
-```
+```text
 https://fonts.googleapis.com/css?family=Tangerine:bold
 https://fonts.googleapis.com/css?family=Tangerine:bold,italic
 https://fonts.googleapis.com/css?family=Tangerine:400,700
