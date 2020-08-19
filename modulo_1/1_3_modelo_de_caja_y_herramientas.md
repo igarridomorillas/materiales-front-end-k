@@ -311,6 +311,69 @@ El diseñador nos ha pasado el proyecto en este codepen: <https://codepen.io/pix
 Más información sobre las variables CSS:
 <https://blog.nearsoftjobs.com/variables-en-css-9701ed9bd92d>
 
+## Cambiando el tipo de fuente
+
+Como habéis visto en los ejemplos hasta ahora, todas las páginas web que hemos hecho tienen el mismo tipo de fuente, la que está definida en las propiedades CSS por defecto de cada navegador. Normalmente suele ser una fuente de la familia Sans-Serif (como Arial o Verdana). Se puede cambiar la fuente de un elemento (o de toda la página usando el elemento body) con la propiedad `font-family` de css:
+
+```css
+  body { font-family: "Rubik", sans-serif; }
+```
+
+El valor de `font-family` es una lista, separada por comas, de nombres de fuentes (como los nombres de las que escoges en Word o TextEdit) o de nombres de fuentes genéricas, como
+
+- **serif** (como "Times New Roman", "Georgia")
+- **sans-serif** (como "Arial", "Verdana")
+- **cursive**
+- **fantasy** (como "Comic Sans", "Impact")
+- **monospace** (como "Courier New", "Monaco")
+
+### Buenas prácticas
+
+Lo habitual es poner uno o varios nombres de familia de fuentes (por ejemplo `"Rubik"`) y al final poner un nombre de fuente genérico. Esto se hace porque el navegador tiene que tener esa fuente en el ordenador del usuario o tener acceso a la misma a través de Internet (veremos ahora como se hace con `@font-face`). Por ejemplo:
+
+```css
+  h1 { font-family: "Rubik", "Arial", "Roboto", sans-serif; }
+```
+
+Si el navegador no encuentra la fuente `"Rubik"` en el ordenador del usuario ni se ha especificado en ningún `@font-face`, pasará a buscar y usar la siguente, en este caso `"Arial"` (la fuente Arial suele estar en todos los ordenadores Windows, pero no en Linux. Roboto es típica de Android, pero no de Windows, MacOS o Linux)
+
+Usa 1 o 2 fuentes distintas como **máximo** en tus páginas web para obtener una mejor legibilidad (salvo que sea una página personal muy artística).
+Define un buen contraste entre el color del texto (`color`) y el color de fondo (`background-color`).
+
+### Cambiar el tamaño del texto
+
+¡Lo vimos en el tema 1! Pero, de recuerdo, se hace con la propiedad `font-size`:
+
+```css
+  main { font-size: 14pt; }
+```
+
+Las unidades pueden ser `pt` (como en Word, TextEdit, ..) o, preferiblemente, en `px`. En etiquetas o elementos distintos de body, también puede ponerse como porcentaje.
+
+```css
+  body { font-family: "Rubik", "Arial", "Roboto", sans-serif; font-size: 16px; }
+  h2   { font-size: 175%; }
+```
+
+### Declarar una nueva familia de fuentes
+
+Podemos decirle al navegador que tiene disponible en el servidor o en Internet una fuente que no está instalada en su ordenador. Se hace con el pseudo-elemento `@font-face`, donde le indicaremos un nombre y la URL al fichero que tiene la fuente. Los ficheros de fuentes pueden ser ficheros ttf (TrueType) o woff.
+
+```css
+  @font-face {
+    font-family: "Mi fuente";
+    src: url( "assets/FicheroFuente.woff" );
+  }
+
+  body { font-family: "Mi fuente", sans-serif; }
+```
+
+Además de escribir esta declaración CSS, habrá que copiar el fichero `FicheroFuente.woff` que contiene la fuente en el directorio `assets`.
+
+> **Nota:** No podemos poner una URL a otro servidor en la propiedad src de `@font-face`. Pero, al final del tema, veremos como usar fuentes desde Google Fonts sin tener que encargarnos de los ficheros ttf o woff.
+
+> **Nota:** `@font-face` es un pseudo-elemento de CSS. Esto quiere decir que no se puede colocar dentro de las reglas de otro elmento, sino que tiene que estar en el primer nivel de jerarquia.
+
 ## DevTools
 
 Desde que aparecieron las *Devtools* en todos los navegadores decentes, la vida del front-end es mucho más tranquila. Estas herramientas nos permiten saber cómo está interpretando el navegador nuestra web o qué está cargando (hojas de estilos, imágenes, vídeos/audios, JavaScript...).
