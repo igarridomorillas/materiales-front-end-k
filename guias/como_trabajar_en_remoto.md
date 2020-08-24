@@ -70,7 +70,7 @@ Cada día seguimos los siguientes pasos:
 1. Cada alumna se conecta a la sala de Zoom **Promo K: parejas de la 1 a la 10** o **Promo K: parejas de la 11 a la 20**, según su número de pareja.
 1. Una profesora se conecta a la sala de Zoom **Promo K: parejas de la 1 a la 10** y la otra a **Promo K: parejas de la 11 a la 20**.
 1. Las profesoras os juntamos por pajeras en **mini salas** de Zoom para que trabajéis en pair programming.
-1. Las profesoras creamos un hilo en el canal de slack **#promo-j-programación** para dar soporte a la pareja que lo necesite.
+1. Las profesoras creamos un hilo en el canal de slack **#promo-k-programación** para dar soporte a la pareja que lo necesite.
 1. La pareja que necesite soporte pide la vez por dicho hilo de Slack indicando el ejercicio sobre el que quiere recibir soporte.
 1. Las profesoras **os movemos de vuestra mini sala de Zoom a la sala común** para daros soporte.
 1. 15 minutos antes de acabar la clase nos juntamos todas en la sala de Zoom **Promo K: todas las alumnas**.
@@ -99,7 +99,7 @@ Cada día seguimos los siguientes pasos:
 1. Cada alumna se conecta a la sala de Zoom **Promo K: equipos del 1 al 4** o **Promo K: equipos del 5 al 8**, según su número de equipo.
 1. Una profesora se conecta a la sala de Zoom **Promo K: equipos del 1 al 4** y la otra a **Promo K: equipos del 5 al 8**.
 1. Las profesoras os juntamos por equipos en mini salas de Zoom para que trabajéis en equipo.
-1. Las profesoras creamos un hilo en el canal de slack **#promo-j-programación** para dar soporte al equipo que lo necesite.
+1. Las profesoras creamos un hilo en el canal de slack **#promo-k-programación** para dar soporte al equipo que lo necesite.
 1. El equipo que necesite soporte pide la vez por dicho hilo de Slack.
 1. Las profesoras **os movemos de vuestra mini sala de Zoom a la sala común** para daros soporte.
 1. 15 minutos antes de acabar la clase nos juntamos todas en la sala de Zoom **Promo K: todas las alumnas**.
@@ -117,7 +117,7 @@ Siempre usaremos la sala de Zoom **Promo K: todas las alumnas** para realizar es
 - Si por lo que sea te sales de una mini sala y no puedes volver a entrar, lo que debes hacer es salir cerrar la reunión de Zoom y volver a entrar. Aparecerás en la sala principal y el profesor te meterá en la mini sala que te corresponda.
 - Este no es el procedimiento más cómodo del mundo, pero sí nos permite **dar soporte a las dos profesoras a la vez y grabar todo** el soporte por Zoom. Posteriormente el resto de alumnas podéis ver las grabaciones, repasar y resolver dudas fácilmente. Si se te ocurre una forma más óptima de trabajar, dínoslo.
 
-Y todo esto que hemos contado por escrito lo explicamos con [un ejemplo en este vídeo](https://www.youtube.com/watch?v=BRS3mCCoM3s) ;)
+Y todo esto que hemos contado por escrito lo explicamos con [un ejemplo en este vídeo](<https://www.youtube.com/watch?v=BRS3mCCoM3s>) ;)
 
 {% embed url="https://www.youtube.com/watch?v=BRS3mCCoM3s" %}
 
