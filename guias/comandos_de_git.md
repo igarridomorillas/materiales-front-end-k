@@ -139,7 +139,37 @@ Ver el listado de commits realizados:
 git log
 ```
 
-Para salir de `git log` y volver a la terminal hay que pulsar `q`.
+Para salir de `git log` y volver a la terminal hay que pulsar `q`. Para ver más resultados, pulsa el espacio.
+
+## git diff
+
+Sirve para ver los ficheros modificados y sus diferencias desde el último commit:
+
+```bash
+git diff
+```
+
+Aunque lo podemos usar para ver las diferencias entre dos commits:
+
+```bash
+git diff hash-commit-más-antiguo hash-commit-más-nuevo
+```
+
+...donde ```hash-commit-más-antiguo``` y ```hash-commit-más-nuevo``` son los identificadores de commit. Se ven después de hacer ```git commit``` o al listarlos con ```git log```. Los puedes copiar y pegar o escribir sólo las primeras 5 letras.
+
+También se puede usar para ver los cambios entre dos ramas:
+
+```bash
+git diff rama-1 rama-2
+```
+
+...nos dirá los cambios de la rama-1 que no están en la rama-2 con un símbolo - al principio de la línea y los de la rama-2 que no están en la rama-1 con un símbolo +.
+
+Hay un nombre de commit "especial" que es **HEAD**. Automáticamente, git asigna al nombre HEAD el último commit de la rama en la que estamos. Es útil para ver los cambios que hemos hecho hasta ahora:
+
+```bash
+git diff hash-de-commit-antiguo HEAD
+```
 
 ## git init
 
@@ -235,6 +265,7 @@ Para recuperar el stash 0, es decir, para coger el código y ponerlo en nuestra 
 ```bash
 git stash pop stash@{0}
 ```
+
 Y en nuestra rama aparecerán los cambios como si los acabaramos de escribir ahora mismo, es decir, sin commitear.
 
 ## Borrar los stash
