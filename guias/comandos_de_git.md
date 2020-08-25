@@ -89,6 +89,28 @@ Sincroniza la información (de commits, ramas...) desde el repo remoto al local,
 git fetch
 ```
 
+## git clean
+
+A veces, creamos ficheros que no hacen falta y no van a ir a ningún commit. Si queremos limpiar nuestro repositorio de esos ficheros podemos usar ```git clean```:
+
+```bash
+git clean -f .
+```
+
+También podemos usar ```git clean -i .``` para que nos vaya preguntando cuál fichero borrar y cuál no.
+
+Si esos ficheros extra no queremos que vayan en ningún commit pero no los vamos a borrar porque son necesarios (por ejemplo, ficheros de configuración o el directorio de configuración de VisualStudio Code) podemos incluir sus nombres (con su ruta relativa) en el fichero ```.gitignore``` uno por línea. Si ```.gitignore``` no existe, podemos crearlo. Después, hacemos add y commit de ```.gitignore``` y a partir de entonces git no los tendrá en cuenta.
+
+## git reset
+
+Si lo que queremos es deshacer todos los cambios que hemos hecho desde el último commit y quedarnos con el directorio "limpio de cambios", ejecutaremos:
+
+```bash
+git reset --hard
+```
+
+Usando ```git reset``` en conjunto al comando anterior ```git clean```, que nos quedará el directorio de trabajo igualito a lo que había hasta el último commit.
+
 ## git branch
 
 Listar las ramas locales:
