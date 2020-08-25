@@ -171,6 +171,48 @@ Hay un nombre de commit "especial" que es **HEAD**. Automáticamente, git asigna
 git diff hash-de-commit-antiguo HEAD
 ```
 
+## git commit --amend
+
+Imaginaos que, por poco probable que parezca, nos hemos equivocado en el commit anterior: la descripción no es correcta o falta algún fichero. Podemos corregirlo modificando (enmendando) el último commit:
+
+```bash
+git commit --amend -m "Otra descripción"
+```
+
+```bash
+git add fichero-que-me-deje.js
+git commit --ammend
+```
+
+En el primer caso cambiamos la descripción del último commit y en el segundo añadimos un fichero más.
+
+## git revert
+
+Si el último commit no era correcto porque tenía bugs o fallos y queremos desestimarlo, podemos usar git revert:
+
+```bash
+git revert
+```
+
+Lo que hace es generar otro commit nuevo con los cambios inversos al último commit y con la descripción del último commit pero con la palabra Revert al principio y los archivos como estaban antes de ese commit:
+
+```bash
+ivan@adalab:~/ejemplo-git$ git log --oneline
+6c14dda (HEAD -> master) Cambio chungo
+43da3d1 Otro cambio
+c725fe8 Un cambio
+
+ivan@adalab:~/ejemplo-git$ git revert HEAD
+[master 466e605] Revert "Cambio chungo"
+ 1 file changed, 1 deletion(-)
+
+ivan@adalab:~/ejemplo-git$ git log --oneline
+466e605 (HEAD -> master) Revert "Cambio chungo"
+6c14dda Cambio chungo
+43da3d1 Otro cambio
+c725fe8 Un cambio
+```
+
 ## git init
 
 Crea un repositorio desde cero en nuestro ordenador:
