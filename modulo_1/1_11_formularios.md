@@ -92,9 +92,11 @@ Ya tenemos nuestro formulario con los dos campos necesarios para que funcione, p
 
 Hay dos cosas que son recomendables y nos faltan aquí, y son bastante importantes de cara a la experiencia del usuario. Como se puede ver, no sabemos qué debemos meter en cada campo y no tenemos un ejemplo del texto que podemos introducir, lo que hace muy difícil saber que se nos está pidiendo. Para solucionar este problema tenemos el atributo `placeholder` y la etiqueta `<label>`.
 
+### Label
+
 La etiqueta label se utiliza para mostrar el título del campo, describe qué información debemos introducir en él. La manera más indicada de utilizar una etiqueta `<label>` es incluirla justo antes del `<input>` al que acompaña. Una de las cualidades de esta etiqueta es que si pulsas sobre ella nos colocamos en el campo al que acompaña.
 
-Para decirle al navegador que nuestra etiqueta `<label>` está relacionada con un determinado `<input>` debemos hacer dos cosas, asignar un id al input para identificarla de manera unívoca y añadir el atributo `for` a `<label>` con el id que hemos puesto al input, quedando como resultado el código que mostramos a continuación:
+Para decirle al navegador que nuestra etiqueta `<label>` está relacionada con un determinado `<input>` debemos hacer dos cosas, asignar un atributo `id` al input para identificarla de manera unívoca y añadir el atributo `for` a `<label>` con el id que hemos puesto al input, quedando como resultado el código que mostramos a continuación:
 
 ```html
 <form action="/signup" method="post">
@@ -110,19 +112,29 @@ Para decirle al navegador que nuestra etiqueta `<label>` está relacionada con u
 
 > **Nota:** es importante apreciar que dentro del input el atributo `name` y el `id` pueden ser distintos, pero el `for` del label siempre debe coincidir con el `id` del input.
 
-El atributo `placeholder` se puede asignar a un input y sirve para establecer el texto que se mostrará en el campo cuando este esté vacío. Es una buena práctica usarlo como pista para que la persona que está rellenando el formulario sepa qué información debe introducir. Por ejemplo, podemos darle pistas sobre cómo debe escribir los datos para que no pase un error típico que escribir el nombre y el apellido en el mismo campo (poner Jon Nieve puede ser una opción).
+### Placeholder
+
+El atributo `placeholder` se puede asignar a un input y sirve para establecer el texto que se mostrará en el campo cuando este esté vacío. El navegador mostrará el texto de `placeholder` dentro del `input` pero de un color gris claro para que la/el usuaria/o no lo confunda con texto que ya ha escrito en el campo.
+
+Es una buena práctica usarlo como pista para que la persona que está rellenando el formulario sepa qué información debe introducir. Por ejemplo, podemos darle instrucciones sobre cómo debe escribir los datos:
 
 ```html
 <form action="/signup" method="post">
   <label for="firstName">Nombre</label>
-  <input placeholder="Jon" id="firstName" type="text" name="firstName" />
+  <input placeholder="Escribe aquí tu nombre de pila..." id="firstName" type="text" name="firstName" />
   <label for="lastName">Apellido</label>
-  <input placeholder="Nieve" id="lastName" type="text" name="lastName" />
+  <input placeholder="Escribe aquí tus apellidos..." id="lastName" type="text" name="lastName" />
   <input type="submit" value="Enviar info" />
 </form>
 ```
 
 ![Ejemplo de placeholder para un campo de texto](assets/images/1-11/placeholder.png)
+
+Cuando la/el usuaria/o empiece a escribir, el texto del placeholder desaparecerá y sólo se mostrarán los caracteres que ha tecleado. Esos caracteres los añade automáticamente el navegador al atributo `value` y cuando se envíe el formulario se enviará lo que contengan todos los `value` de cada `input` del formulario (nunca el `placeholder`, aunque no se haya escrito nada).
+
+> **Nota:** `placeholder` es una ayuda visual para la/el usuaria/o de la página y `value` es el valor que contiene el `input`.
+
+### type="email"
 
 Bien, continuemos introduciendo campos. Este ejemplo se empieza a parecer a un formulario de registro, así que vamos a continuar como si se tratase de uno. En un formulario de este tipo, lo normal después del nombre es escribir el mail, para esto utilizaremos también la etiqueta `<input>` pero esta vez utilizaremos `type="email"` para definir el campo como una dirección de correo.
 
@@ -144,6 +156,8 @@ Otra diferencia entre el tipo `email` y el tipo `text` es que si abrimos la pág
 
 ![Teclado que se muestra en móvil para los campos del tipo "email"](assets/images/1-11/form-email-keyboard.jpg)
 
+### type="tel"
+
 Bien, tenemos el nombre y el email, vamos con el siguiente, el teléfono. Para el campo teléfono sucede lo mismo que para el del email. En vez de usar `type="text"` utilizaremos `type="tel"`. En este caso no nos validará el teléfono antes de enviarlo porque hay teléfonos muy raros y en muchos casos también van acompañados de guiones o puntos y es complejo de gestionar. Aún así si utilizamos `type="tel"` si que nos mostrará un teclado numérico en el teléfono para facilitarnos el trabajo a la hora de escribir la información como se puede ver en la captura de pantalla.
 
 ```html
@@ -155,6 +169,8 @@ Bien, tenemos el nombre y el email, vamos con el siguiente, el teléfono. Para e
 ```
 
 ![Captura de pantalla del teclado que se muestra en un campo del tipo teléfono](assets/images/1-11/form-telephone-keyboard.jpg)
+
+### type="password"
 
 Tenemos prácticamente todo pero nos quedaría algo bastante importante, la contraseña. Para crear un campo para nuestra contraseña continuamos con el mismo procedimiento que en los anteriores campos, esta vez usando `type="password"` como atributo para definir el tipo de campo. Los campos tipo password tienen una diferencia frente al resto y es que sustituyen el texto que contienen por puntos negros (●) para aumentar la seguridad y que la contraseña no sea visible.
 
