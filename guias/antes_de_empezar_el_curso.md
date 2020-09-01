@@ -1,6 +1,6 @@
 # Antes de empezar el curso intensivo de Adalab
 
-Si estás leyendo esto es porque has sido admitida en el Curso Intensivo de Adalad...
+Si estás leyendo esto es porque has sido admitida en el Curso Intensivo de Adalab...
 
 ## ¡¡¡🎉Enhorabuena futura programadora🥳!!!
 

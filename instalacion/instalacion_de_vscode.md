@@ -16,7 +16,7 @@ Desde Ubuntu, la forma más cómoda es acceder al instalador de aplicaciones des
 
 ## Plugins de VS Code
 
-Los plugins son extensiones para ampliar y personalizar el funcionamiento de VS Code. Hay muchísimos. Nosotras vamos a utilizar las siguientes durante el curso. Accede a ellas e instálas:
+Los plugins son extensiones para ampliar y personalizar el funcionamiento de VS Code. Hay muchísimos. Nosotras vamos a utilizar las siguientes durante el curso. Accede a ellas e instálalas:
 
 - [Live server:](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para tener un servidor local en nuestro ordenador.
 - [Live share:](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) para compartir nuestro código con nuestras compañeras.
