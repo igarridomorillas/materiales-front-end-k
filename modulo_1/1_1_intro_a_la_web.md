@@ -73,7 +73,7 @@ protocolo://nombre-de-dominio:puerto-de-red/directorio/nombre-de-archivo
 
 - **Protocolo**: Indica cómo se van a intercambiar los datos entre el ordenador cliente y el servidor. Hay varios tipos de protocolo, el normal para navegar es http (o https, que es http pero en modo seguro). http significa Hypertext Transfer Protocol, que español viene a ser "Protocolo de transferencia de hipertexto". Existen más protocolos como `mailto` o `ftp`.
 - **Nombre de dominio**: Dominio es la dirección amigable de un ordenador en Internet (recordad como vimos que `google.es` es el dominio que dirige al servidor que está en la dirección 216.58.206.227). Los dominios tienen un nombre y una extensión.
-  - Las **extensiones** las crea una entidad [ICANN](icann.org) y algunas extensiones populares son `.com`, `.net` o `.org`. Intentan añadir información al dominio, por ejemplo:
+  - Las **extensiones** las crea una entidad [ICANN](https://www.icann.org/) y algunas extensiones populares son `.com`, `.net` o `.org`. Intentan añadir información al dominio, por ejemplo:
     - `.es` indica que es una página española
     - `.com` indica que es una página comercial
     - `.cat` indica que es una página catalana, no de gatitos

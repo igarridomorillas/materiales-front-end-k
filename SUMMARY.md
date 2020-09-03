@@ -89,6 +89,6 @@
 
 - [Proyecto 1. Web grupal](proyectos/p1_proyecto.md)
   - [Anexo. Diseña tu web desde cero](proyectos/p1_anexo.md)
-- [Proyecto 2. Awesome profile-cards](proyectos/p2_proyecto.md)
-  - [Anexo. Documentación del API de Awesome Profile Cards](proyectos/p2_anexo.md)
-- [Proyecto 3. Un caso de código heredado](proyectos/p3_proyecto.md)
+<!-- - [Proyecto 2. Awesome profile-cards](proyectos/p2_proyecto.md)
+  - [Anexo. Documentación del API de Awesome Profile Cards](proyectos/p2_anexo.md) -->
+<!-- - [Proyecto 3. Un caso de código heredado](proyectos/p3_proyecto.md) -->

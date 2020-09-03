@@ -37,7 +37,7 @@ El objetivo del programa es que las participantes sean capaces de realizar las s
 
 - Crear páginas web y aplicaciones web sencillas utilizando un código correcto y ordenado.
 - Modificar el código de una aplicación web existente, dejándolo en un estado igual o mejor.
-- Usar herramientas y metodologías de trabajo en equipo para desarrollar de productos digitales.
+- Usar herramientas y metodologías de trabajo en equipo para desarrollar productos digitales.
 - Entender qué es un framework de JavaScript y manejar la base de alguno de ellos.
 
 ## Cómo colaborar
