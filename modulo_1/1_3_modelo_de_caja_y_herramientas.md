@@ -335,7 +335,7 @@ Lo habitual es poner uno o varios nombres de familia de fuentes (por ejemplo `"R
   h1 { font-family: "Rubik", "Arial", "Roboto", sans-serif; }
 ```
 
-Si el navegador no encuentra la fuente `"Rubik"` en el ordenador del usuario ni se ha especificado en ningún `@font-face`, pasará a buscar y usar la siguente, en este caso `"Arial"` (la fuente Arial suele estar en todos los ordenadores Windows, pero no en Linux. Roboto es típica de Android, pero no de Windows, MacOS o Linux)
+Si el navegador no encuentra la fuente `"Rubik"` en el ordenador del usuario ni se ha especificado en ningún `@font-face`, pasará a buscar y usar la siguente, en este caso `"Arial"` (la fuente Arial suele estar en todos los ordenadores Windows, pero no en Linux. Roboto es típica de Android, pero no de Windows, MacOS o Linux).
 
 Usa 1 o 2 fuentes distintas como **máximo** en tus páginas web para obtener una mejor legibilidad (salvo que sea una página personal muy artística).
 Define un buen contraste entre el color del texto (`color`) y el color de fondo (`background-color`).
