@@ -329,7 +329,7 @@ El valor de `font-family` es una lista, separada por comas, de nombres de fuente
 
 ### Buenas prácticas
 
-Lo habitual es poner uno o varios nombres de familia de fuentes (por ejemplo `"Rubik"`) y al final poner un nombre de fuente genérico. Esto se hace porque el navegador tiene que tener esa fuente en el ordenador del usuario o tener acceso a la misma a través de Internet (veremos ahora como se hace con `@font-face`). Por ejemplo:
+Lo habitual es poner uno o varios nombres de familia de fuentes (por ejemplo `"Rubik"`) y al final poner un nombre de fuente genérico. Esto se hace porque el navegador tiene que tener esa fuente en el ordenador del usuario o tener acceso a la misma a través de Internet (veremos ahora cómo se hace con `@font-face`). Por ejemplo:
 
 ```css
   h1 { font-family: "Rubik", "Arial", "Roboto", sans-serif; }
